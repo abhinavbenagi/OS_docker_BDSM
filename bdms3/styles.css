@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(fin3.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: rgb(21, 20, 20);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+    right :;
+	transform: translate(-50%, -50%);
+	font-family: Arial;
+	user-select: none;
+}
+
+.center h1{
+	color: rgb(57, 45, 45);
+	font-size: 60px;
+	width: 1000px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: rgb(57, 45, 45);
+	font-size: 50px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center h3{
+	color: rgb(57, 45, 45);
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center h4{
+	color: rgb(212, 207, 207);
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 130px;
+	width: 885px;
+	text-align: center;
+
+	position: fixed ;
+	height: 30px;
+	width: 1000px;
+	down:5px;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons a{
+	height: 1000px;
+	width: 1000px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #663232;
+	background: rgb(14, 13, 13);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #6f5c5c;
+	border-radius: 50px;
+	transition: .4s;
+    padding: 15px 25px;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons a:hover{
+	background: #817eda;
+}
+
+.submit{
+	border-radius: 0px;
+	width: 100px;
+	height: 40px;
+	margin-top: 15px;
+}
+.form-label{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.form-label1{
+	margin-top: 20px;
+	margin-bottom:20px;
+}
